@@ -1,0 +1,16 @@
+محاضرة 2 : المتغيرات وانواع البيانات
+المتغيرات وتعريفها
+انواع البيانات الاساسية : الاعداد والسلاسل والقيم المنطقية
+تعلم كيفية تعيين قيم للمتغيرات وطباعتها
+
+Lecture 2 : Variables and Data Types
+Variables and their Definition
+Basic data types : numbers, strings, and boolean values
+Learning how to assign values to variables and print them
+
+number age = 34;
+string name = "Islam";
+boolean isStudent = true;
+BismAllah Insan(age);
+BismAllah Insan(name);
+BismAllah Insan(isStudent);
