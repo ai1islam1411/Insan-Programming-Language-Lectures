@@ -1,0 +1,37 @@
+محاضرة 13 : برنامج بسيط بلغة إنسان البرمجية يستخدم الاذكاء الاصطناعي باللغتان (العربية والإنجليزية) للرد على المحادثات
+
+Lecture 13 : A Simple Program In or By Insan Programming Language that uses artificial intelligence in both Arabic and English languages to 
+respond to conversations
+
+BismAllah Insan
+// استيراد مكتبات الاذكاء الاصطناعي ومعالجة اللغة الطبيعية
+import AIInsan;
+import NLPInsan;
+
+// تدريب نموذج الاذكاء الاصطناعي على مجموعة بيانات المحادثات
+AIInsan.trainModel("conversation_data.csv");
+
+BismAllah Insan("Model Trained Successfully!");
+
+// دالة للرد على المحادثة
+function chat(message) {
+  // تحويل النص إلى اللغة الإنجليزية
+  string englishMessage = NLPInsan.translateToEnglish(message);
+  
+  // توليد الرد من نموذج الاذكاء الاصطناعي
+  string response = AIInsan.predict(englishMessage);
+  
+  // تحويل الرد إلى اللغة العربية
+  string arabicResponse = NLPInsan.translateToArabic(response);
+  
+  return arabicResponse;
+}
+
+BismAllah Insan("السلام عليكم ورحمة الله وبركاته عزيزنا الإنسان! أنا متصل الاذكاء الاصطناعي إنسان في خدمة الإنسان. كيف يمكنني مساعدتك؟");
+
+// حلقة للحصول على إدخال المستخدم والرد عليه
+while (true) {
+  string userInput = BismAllah Insan();
+  string aiResponse = chat(userInput);
+  BismAllah Insan(aiResponse);
+}
