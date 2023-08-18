@@ -1,0 +1,14 @@
+محاضرة 12 : الحلقات المتعددة
+استخدام الحلقات المتعددة لتنفيذ الاوامر بشكل متكرر ومتعدد
+استخدام الحلقات التداخلية والحلقات المتوازية
+
+Lecture 12 : Nested Loops
+Using Nested loops to execute commands repeatedly and in multiple layers
+Using Nested iterative loops and parallel loops
+
+number i, j;
+repeat (i = 0; i < 5; i = i + 1) {
+    repeat (j = 0; j < 3; j = j + 1) {
+        BismAllah Insan("قيمة i: " + i + "، قيمة j: " + j);
+    }
+}
