@@ -1,0 +1,16 @@
+محاضرة 5 : الشروط والعبارات المشروطة
+استخدام الشروط لاتخاذ القرارات في البرنامج
+الشروط المشروطة "إذا - ثم - وإلا
+تنفيذ كود مختلف بناءً على الشروط
+
+Lecture 5 : Conditions and Conditional Statements
+Using Conditions To Make Decisions In A Program
+Conditional Statements "if - then - else"
+Executing Different Code Based On Conditions
+
+number x = 10;
+if (x > 5) {
+    BismAllahInsan("العدد اكبر من 5");
+} else {
+    BismAllah Insan("العدد اصغر من أو يساوي 5");
+}
