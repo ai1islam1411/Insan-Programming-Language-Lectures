@@ -1,0 +1,14 @@
+محاضرة 9 : السلاسل وعمليات السلاسل
+السلاسل وتعريفها واستخدامها
+عمليات السلاسل : الانضمام والاستبدال
+
+Lecture 9 : Strings and String Operations
+Strings : Their definition and usage
+String operations : Concatenation and Substitution
+
+string message = "Salam";
+string name = "Islam";
+string greeting = message + " " + name;
+string replaced = greeting.replace("Islam", "Sarah");
+BismAllah Insan(greeting);
+BismAllah Insan(replaced);
