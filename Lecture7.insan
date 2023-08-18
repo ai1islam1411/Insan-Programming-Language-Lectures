@@ -1,0 +1,12 @@
+محاضرة 7 : الدوال والإجراءات
+تعريف الدوال والإجراءات واستخدامها
+إنشاء دالة بسيطة تقوم بطباعة رسالة
+
+Lecture 7 : Functions and Procedures
+Defining functions and procedures and their usage
+Creating a simple function that prints a message
+
+function printMessage() {
+    BismAllah Insan("اهلا بك بك عزيزنا الإنسان!");
+}
+BismAllah Insan(printMessage());
