@@ -1,0 +1,15 @@
+محاضرة 6 : الحلقات والتكرار
+استخدام الحلقات لتنفيذ الاوامر المتكررة
+انواع الحلقات : الحلقة التكرارية والحلقة التكرارية مع شرط
+تنفيذ سلسلة من الاوامر بشكل متكرر
+
+Lecture 6 : Loops and Iteration
+Using Loops To Execute Repeated Commands
+Types of loops : iterative loop and loop with a condition
+Executing a series of commands repeatedly
+
+number i = 0;
+repeat (i < 5) {
+    BismAllah Insan(i);
+    i = i + 1;
+}
