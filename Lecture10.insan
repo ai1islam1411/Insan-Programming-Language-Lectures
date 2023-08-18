@@ -1,0 +1,10 @@
+محاضرة 10 : الإدخال والإخراج
+استخدام الإدخال والإخراج للتفاعل مع المستخدم
+طلب إدخال البيانات من المستخدم وطباعته
+
+Lecture 10 : Input and Output
+Using input and output to interact with the user
+Requesting user input and printing it
+
+string name = ستسأل("ما اسمك؟");
+BismAllah Insan("اهلا بك عزيزنا الإنسان, " + name + "! كيف الحال عزيزنا الإنسان؟");
