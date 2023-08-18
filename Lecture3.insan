@@ -1,0 +1,18 @@
+محاضرة 3 : العمليات الحسابية
+العمليات الحسابية الاساسية : الجمع والطرح والضرب والقسمة
+تطبيق العمليات الحسابية على المتغيرات
+
+Lecture 3 : Arithmetic Operations
+Basic Arithmetic Operations : Addition, Subtraction, Multiplication, and Division
+Applying Arithmetic Operations To Variables
+
+number a = 10;
+number b = 5;
+number sum = a + b;
+number difference = a - b;
+number product = a * b;
+number quotient = a / b;
+BismAllah Insan(sum);
+BismAllah Insan(difference);
+BismAllah Insan(product);
+BismAllah Insan(quotient);
