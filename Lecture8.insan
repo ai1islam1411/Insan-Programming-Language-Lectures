@@ -1,0 +1,14 @@
+محاضرة 8 : المصفوفات
+المصفوفات وتعريفها واستخدامها
+إنشاء مصفوفة باعداد وطباعة قيمها
+
+Lecture 8 : Arrays
+Arrays : Their definition and usage
+Creating an array of numbers and printing its values
+
+array numbers = [1, 2, 3, 4, 5];
+BismAllah Insan(numbers[0]);
+BismAllah Insan(numbers[1]);
+BismAllah Insan(numbers[2]);
+BismAllah Insan(numbers[3]);
+BismAllah Insan(numbers[4]);
