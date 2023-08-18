@@ -1,0 +1,16 @@
+محاضرة 11 : الهياكل الشرطية المتعددة
+استخدام الهياكل الشرطية المتعددة لاتخاذ قرارات متعددة
+استخدام الشروط المتداخلة والشروط المتوازية
+
+Lecture 11 : Multiple Conditional Structures
+Using multiple conditional structures for multiple decision-making
+Using nested conditions and parallel conditions
+
+number x = 10;
+if (x > 5) {
+    BismAllah Insan("العدد اكبر من 5");
+} else if (x > 2) {
+    BismAllah Insan("العدد اكبر من 2");
+} else {
+    BismAllah Insan("العدد اصغر من أو يساوي 2");
+}
