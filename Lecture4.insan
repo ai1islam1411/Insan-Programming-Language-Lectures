@@ -1,0 +1,24 @@
+محاضرة 4 : العمليات المنطقية والمقارنة
+العمليات المنطقية : القيم المنطقية "صح" و"خطأ" والعمليات المنطقية "و" و"أو
+العمليات المقارنة : التساوي والتفاوت والاكبر من والاصغر من
+تطبيق العمليات المنطقية والمقارنة على المتغيرات
+
+Lecture 4 : Logical and Comparison Operations
+Logical Operations : Logical Values "True" and "False" and Logical Operators "and" and "or"
+Comparison Operations : Equality, Inequality, Greater Than, and Less Than
+Applying Logical and Comparison Operations To Variables
+
+boolean isTrue = true;
+boolean isFalse = false;
+boolean resultAnd = isTrue && isFalse;
+boolean resultOr = isTrue || isFalse;
+boolean isEqual = a == b;
+boolean isNotEqual = a != b;
+boolean isGreater = a > b;
+boolean isLess = a < b;
+BismAllah Insan(resultAnd);
+BismAllah Insan(resultOr);
+BismAllah Insan(isEqual);
+BismAllah Insan(isNotEqual);
+BismAllah Insan(isGreater);
+BismAllah Insan(isLess);
